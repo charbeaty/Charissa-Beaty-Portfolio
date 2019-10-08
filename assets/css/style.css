@@ -1,0 +1,271 @@
+body {
+    font-family:  'Happy Monkey', cursive;
+    font-size: 18px;
+    line-height: 34px;
+    color: black;
+    background: url(https://ae01.alicdn.com/kf/HTB1RR2iRXXXXXb9XVXXq6xXFXXX9/HUAYI-White-Grey-Wood-floor-backdrop-photography-background-newborn-backdrop-wood-photography-backgroundXT4679.jpg);
+    background-attachment: fixed;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* general */
+  
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 20px;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: 'Happy Monkey', cursive;
+    font-weight: 700;
+    color: e60da5;
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    color:grey;
+    line-height: 49px;
+    border-bottom: 3px solid; 
+  }
+  
+  h2,
+  h3 {
+    font-size: 22px;
+  }
+  
+  /* header */
+  
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: rgb(15, 243, 220);
+    border-bottom: 2px solid #cccccc;
+  }
+  
+  #logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: 'Happy Monkey', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: hsla(186, 70%, 11%, 0.562);
+  }
+  
+  nav {
+    float: right;
+    margin-top: 25px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid; color: hsla(315, 5%, 15%, 0.562);
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
+  
+  /* footer */
+  
+  footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid; hsla(315, 5%, 15%, 0.562);
+    height: 50px;
+  }
+  
+  h3, h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid; 
+    border-color: hsla(315, 5%, 15%, 0.562);
+  }
+  
+  /* main */
+  
+  #main-container {
+    padding-top: 130px;
+
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 15px;
+    margin: 0 0 40px 0;
+    background: white;
+    border: 3px solid; color:hsla(315, 5%, 15%, 0.562);
+  }
+
+  .sidebar {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    float: left;
+    border: 3px solid; 
+    color:hsla(315, 5%, 15%, 0.562);
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  h3, .sidebar, h2 {
+    border-bottom: 3px solid;
+    color:hsla(315, 5%, 15%, 0.562);
+    padding-bottom: 20px; 
+    margin-bottom: 15px;
+    line-height: 22px;
+  }
+  
+  .social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+  }
+
+  .social: last-child {
+    margin-right: 0;
+  }
+  /* portfolio page */
+  
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 15px;
+    padding: 5px;
+    /* overflow: auto;  */
+  }
+  
+  .game {
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+  }
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px; */
+    width: 100%;
+    padding: 5px;
+    /* margin-bottom: 0; */
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: hsla(315, 5%, 15%, 0.562);
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  
+  /* contact page */
+  
+  #contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 3px solid; color: hsla(315, 5%, 15%, 0.562);
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background:   hsla(315, 5%, 15%, 0.562);
+    border: 0 none;
+  }
+
+  [class*="col-"] {
+      width: 100%;
+  }
+
+  @media screen and (max-width: 980px){
+      #masthead {position: fixed;}
+  }
+  @media screen and (max-width: 768px){
+      #masthead {position: fixed;}
+  }
+  @media screen and (max-width: 640px){
+      #masthead {position: static;}
+  }
+  
