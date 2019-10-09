@@ -1,9 +1,9 @@
-body {
-    font-family:  'Happy Monkey', cursive;
+body, html {
     font-size: 18px;
     line-height: 34px;
-    color: black;
-    background: url(https://ae01.alicdn.com/kf/HTB1RR2iRXXXXXb9XVXXq6xXFXXX9/HUAYI-White-Grey-Wood-floor-backdrop-photography-background-newborn-backdrop-wood-photography-backgroundXT4679.jpg);
+    height: 100%;
+    color: white;
+    background-color: #9c436d;
     background-attachment: fixed;
   }
   
@@ -12,6 +12,23 @@ body {
   }
   
   /* general */
+
+  .hero-image {
+      background-image:url(http://montrealwebsolutions.com/wp-content/uploads/2017/03/web-design-background-montreal-1.jpg);
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  
+    }
+
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        color: white;
+    }
   
   .container {
     width: 100%;
@@ -34,7 +51,6 @@ body {
   h1,
   h2,
   h3 {
-    font-family: 'Happy Monkey', cursive;
     font-weight: 700;
     color: e60da5;
   }
@@ -42,7 +58,7 @@ body {
   h1 {
     padding-bottom: 20px;
     font-size: 30px;
-    color:grey;
+    color:white;
     line-height: 49px;
     border-bottom: 3px solid; 
   }
@@ -54,7 +70,7 @@ body {
   
   /* header */
   
-  #masthead {
+  /* #masthead {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -63,13 +79,12 @@ body {
     color: #ffffff;
     background: rgb(15, 243, 220);
     border-bottom: 2px solid #cccccc;
-  }
+  } */
   
   #logo {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: 'Happy Monkey', cursive;
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
@@ -122,7 +137,7 @@ body {
   
   /* main */
   
-  #main-container {
+  /* #main-container {
     padding-top: 130px;
 
   }
@@ -135,21 +150,11 @@ body {
     margin: 0 0 40px 0;
     background: white;
     border: 3px solid; color:hsla(315, 5%, 15%, 0.562);
-  }
+  } */
 
-  .sidebar {
-    background: white;
-    padding: 30px;
-    width: 100%;
-    max-width: 270px;
-    float: left;
-    border: 3px solid; 
-    color:hsla(315, 5%, 15%, 0.562);
-    margin-bottom: 20px;
-    margin-left: 50px;
-  }
 
-  h3, .sidebar, h2 {
+
+  h3, h2 {
     border-bottom: 3px solid;
     color:hsla(315, 5%, 15%, 0.562);
     padding-bottom: 20px; 
@@ -198,7 +203,6 @@ body {
     bottom: 20px; */
     width: 100%;
     padding: 5px;
-    /* margin-bottom: 0; */
     font-weight: 300;
     line-height: 30px;
     color: #ffffff;
