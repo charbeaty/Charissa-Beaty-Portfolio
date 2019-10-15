@@ -10,7 +10,6 @@ body, html {
     box-sizing: border-box;
   }
   
-  /* general */
 
   .hero-image {
       background-image: url(https://image.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg);
@@ -38,70 +37,70 @@ body, html {
     margin: 0 auto;
     clear: both;
   }
-  
-  h1,
-  h2,
-  h3,
-  p {
-    margin-bottom: 20px;
+
+  .btn-group button {
+    background-color: #ca7da1;
+    border: 1px solid black;
+    padding: 10px 24px;
+    cursor: pointer; 
+    float: left; 
+  }
+
+  a {
+    color: white; 
   }
   
-  p:last-child {
-    margin-bottom: 0;
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
   }
   
-  h1,
-  h2,
-  h3 {
-    font-weight: 700;
-    color: e60da5;
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
   }
   
-  h1 {
-    padding-bottom: 20px;
-    font-size: 64px;
-    color:black;
-    line-height: 49px;
-    border-bottom: 3px solid; 
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #cccccc;
+  }
+
+  #main-container {
+
+
   }
   
-  h2,
-  h3 {
-    font-size: 22px;
+
+
+  .row {
+    margin: 8px -16px;
   }
   
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
   
-  #logo {
+  /* Create four equal columns that floats next to each other */
+  .column {
     float: left;
-    width: 250px;
-    height: 90px;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 90px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    background: hsla(186, 70%, 11%, 0.562);
+    width: 25%;
   }
   
-  nav {
-    float: right;
-    margin-top: 25px;
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
   
-  nav a {
-    display: inline-block;
-    padding-left: 15px;
-    margin-left: 15px;
-    line-height: 18px;
-    color: #999;
-    text-decoration: none;
-    border-left: 1px solid; color: hsla(315, 5%, 15%, 0.562);
+  .content {
+    background-color: rgb(212, 205, 205);
+    padding: 5px;
   }
   
-  nav a:first-child {
-    border-left: 0 none;
-  }
   
   /* footer */
   
@@ -117,40 +116,7 @@ body, html {
     height: 50px;
   }
   
-  h3, h2 {
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    line-height: 22px;
-    border-bottom: 2px solid; 
-    border-color: hsla(315, 5%, 15%, 0.562);
-  }
-  
-  /* main */
-  
-  /* #main-container {
-    padding-top: 130px;
 
-  }
-  
-  .main-section {
-    float: left;
-    width: 100%;
-    max-width: 650px;
-    padding: 15px;
-    margin: 0 0 40px 0;
-    background: white;
-    border: 3px solid; color:hsla(315, 5%, 15%, 0.562);
-  } */
-
-
-
-  h3, h2 {
-    border-bottom: 3px solid;
-    color:hsla(315, 5%, 15%, 0.562);
-    padding-bottom: 20px; 
-    margin-bottom: 15px;
-    line-height: 22px;
-  }
   
   .social {
     width: 62px;
@@ -162,44 +128,13 @@ body, html {
   .social: last-child {
     margin-right: 0;
   }
-  /* portfolio page */
-  
-  .work {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 15px;
-    padding: 5px;
-    /* overflow: auto;  */
-  }
   
   .game {
-    width: 150px;
-    height: 200px;
-    margin: 20px;
+    width: 175px;
+    height: 150px;
+    margin: 15px;
   }
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
-  .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-  }
-  
-  .work h3 {
-    position: absolute;
-    bottom: 20px; */
-    width: 100%;
-    padding: 5px;
-    font-weight: 300;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: center;
-    background: hsla(315, 5%, 15%, 0.562);
-    border-bottom: 0;
-  }
+
   
   .auth-image {
     float: left;
@@ -208,58 +143,16 @@ body, html {
     margin-top: 10px;
     margin-right: 25px;
   }
-  
-  /* contact page */
-  
-  #contact-form ul {
-    margin-bottom: 20px;
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
   }
   
-  #contact-form li {
-    margin-bottom: 10px;
-  }
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
-    display: block;
-    width: 100%;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 3px solid; color: hsla(315, 5%, 15%, 0.562);
-  }
-  
-  textarea {
-    height: 200px;
-  }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background:   hsla(315, 5%, 15%, 0.562);
-    border: 0 none;
-  }
-
-  [class*="col-"] {
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
       width: 100%;
+    }
   }
-
-  @media screen and (max-width: 980px){
-      #masthead {position: fixed;}
-  }
-  @media screen and (max-width: 768px){
-      #masthead {position: fixed;}
-  }
-  @media screen and (max-width: 640px){
-      #masthead {position: static;}
-  }
-  
