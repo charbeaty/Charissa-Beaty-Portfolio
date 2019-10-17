@@ -50,6 +50,7 @@ body, html {
     clear: both;
   }
 
+
   .btn-group button {
     background-color: #ca7da1;
     border: 1px solid black;
@@ -124,23 +125,9 @@ body, html {
     color: #ffffff;
     color: #cccccc;
     text-align: center;
-    background: #666666;
-    border-top: 8px solid; hsla(315, 5%, 15%, 0.562);
     height: 50px;
   }
   
-
-  
-  .social {
-    width: 62px;
-    height: 62px;
-    margin-top: 8px;
-    margin-bottom: 5px;
-  }
-
-  .social: last-child {
-    margin-right: 0;
-  }
   
   .game {
     width: 250px;
