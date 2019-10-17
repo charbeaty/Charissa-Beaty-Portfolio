@@ -31,25 +31,33 @@ body, html {
         font-family: 'Poppins', sans-serif;
     }
 
-    /* #main-container{
-      position: fixed;
-      z-index: 99;
-      width: 100%;
-      margin: 0 0 30px;
-      overflow: auto;
+    #main-container{
+      width: 85%;
+      margin: auto;
+      padding: 10px;
       color: #ffffff;
-      background: rgb(15, 243, 220);
+      background: #9c436d;
       border-bottom: 2px solid #cccccc;
     }
-     */
 
-  .container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-  }
+    #portfolio {
+      width: 75%;
+      margin: auto;
+      padding: 10px;
+      color: #ffffff;
+      background: #ca7da1;
+      border: 2px solid #cccccc;
+    }
 
+    #resume {
+      width: 75%;
+      margin: auto;
+      padding: 10px;
+      color: #ffffff;
+      background: turquoise;
+      border: 2px solid #cccccc;
+    }
+    
 
   .btn-group button {
     background-color: #ca7da1;
@@ -84,9 +92,6 @@ body, html {
     background-color: #cccccc;
   }
 
-  .column {
-    float: left;
-  }
 
   h2 {
     font-family: 'Questrial', sans-serif;
