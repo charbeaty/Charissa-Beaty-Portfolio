@@ -53,8 +53,8 @@ body, html {
       width: 75%;
       margin: auto;
       padding: 10px;
-      color: #ffffff;
-      background: turquoise;
+      color: black;
+      background: rgb(228, 224, 183);
       border: 2px solid #cccccc;
     }
     
