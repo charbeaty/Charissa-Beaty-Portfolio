@@ -2,7 +2,6 @@ body, html {
     font-size: 18px;
     line-height: 34px;
     height: 100%;
-    background-color: #9c436d;
     background-attachment: fixed;
   }
   
@@ -35,8 +34,6 @@ body, html {
       width: 85%;
       margin: auto;
       padding: 10px;
-      color: #ffffff;
-      background: #9c436d;
       border-bottom: 2px solid #cccccc;
     }
 
@@ -44,33 +41,19 @@ body, html {
       width: 75%;
       margin: auto;
       padding: 10px;
-      color: #ffffff;
-      background: #ca7da1;
-      border: 2px solid #cccccc;
-    }
-
-    #resume {
-      width: 75%;
-      margin: auto;
-      padding: 10px;
-      color: black;
-      background: rgb(228, 224, 183);
-      border: 2px solid #cccccc;
     }
     
 
   .btn-group button {
-    background-color: #ca7da1;
     border: 1px solid black;
+    color: black;
     padding: 10px 24px;
     cursor: pointer; 
     float: left; 
     font-family: 'Poppins', sans-serif;
   }
 
-  a {
-    color: white; 
-  }
+
   
   .btn-group button:not(:last-child) {
     border-right: none; /* Prevent double borders */
@@ -89,7 +72,8 @@ body, html {
   }
 
   .card {
-    background-color: #cccccc;
+    background-color: black;
+    color: white;
   }
 
 
@@ -127,17 +111,22 @@ body, html {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
     text-align: center;
     height: 50px;
   }
   
   
   .game {
-    width: 250px;
+    width: 180px;
+    height: 180px;
+    margin: 35px;
+    
+  }
+
+  .game2 {
+    width: 200px;
     height: 200px;
-    margin: 20px;
+    margin: 70px;
   }
 
   
