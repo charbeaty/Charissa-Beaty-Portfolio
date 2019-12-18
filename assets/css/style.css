@@ -26,8 +26,11 @@ body, html {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: black;
-        font-family: 'Poppins', sans-serif;
+    }
+
+    .heading {
+      font-family: ;
+      font-size: ;
     }
 
     #main-container{
@@ -50,7 +53,6 @@ body, html {
     padding: 10px 24px;
     cursor: pointer; 
     float: left; 
-    font-family: 'Poppins', sans-serif;
   }
 
 
@@ -72,23 +74,23 @@ body, html {
   }
 
   .card {
-    background-color: black;
-    color: white;
+    background-color: white;
+    border-color: white;
   }
 
 
   h2 {
-    font-family: 'Questrial', sans-serif;
   }
 
   h5 {
     font-weight: bold;
-    font-family: 'Didact Gothic', sans-serif;
   }
 
-  p {
-    font-family: 'Livvic', sans-serif;
+  .card-text,
+  .card-title {
+    color: black;
   }
+
 
   .fa {
     padding: 20px;
