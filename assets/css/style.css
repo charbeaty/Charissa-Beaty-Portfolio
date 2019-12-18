@@ -29,8 +29,26 @@ body, html {
     }
 
     .heading {
-      font-family: ;
-      font-size: ;
+      font-family: 'Lobster Two', cursive;
+      font-size: 70px;
+    }
+
+    .heading2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    }
+
+    #A1,
+    #A2 {
+      font-family: 'Lobster Two', cursive;
+      font-size: 55px;
+    }
+
+    .personal,
+    .group,
+    .card-title {
+      font-family: 'Ultra', serif;      
+      text-align: center;
     }
 
     #main-container{
@@ -78,13 +96,6 @@ body, html {
     border-color: white;
   }
 
-
-  h2 {
-  }
-
-  h5 {
-    font-weight: bold;
-  }
 
   .card-text,
   .card-title {
