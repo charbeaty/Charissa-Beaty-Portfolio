@@ -6,7 +6,6 @@ import Jumbotronhome from './components/JumbotronHome';
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Jumbotronhome />
     </div>
   );
