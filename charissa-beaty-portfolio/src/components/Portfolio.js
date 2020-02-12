@@ -4,11 +4,13 @@ import Jumbotronhome from './JumbotronHome';
 import Footer from './Footer';
 import CardPersonal from './CardPersonal';
 import CardGroups from './CardGroups'
-import { Container, Row, Col, Breadcrumb } from 'reactstrap';
+import { Container, Row, Col, Breadcrumb, Nav } from 'reactstrap';
 import BottomNav from './BottomNav';
 
 const Portfolio = () => {
     return (
+        <div>
+            <Navbar />
         <Container id="portfolio">
             <Row>
                 <Col xs="12" className="project">
@@ -28,8 +30,9 @@ const Portfolio = () => {
                     <CardGroups />
                 </Col>
             </Row>
-            <BottomNav />
         </Container>
+        <BottomNav />
+        </div>
     )
 }
 

@@ -2,14 +2,14 @@
 .navbar {
   position: relative;
   text-align: center;
-  bottom: 65px;
+  bottom: 10px;
   overflow: hidden;
   background-color: transparent;
 }
 
 .navbar-brand {
   float: inline-start;
-  color: white;
+  color: #2fdad1;
 }
 
 .navbar-brand:hover {
@@ -19,7 +19,8 @@
 /* JumbotronHome */
 #homejumbo{
   height: 100vh;
-  background: linear-gradient(rgba(75, 74, 74, 0.9), rgba(75, 74, 74, 0.9)), url('https://lh3.googleusercontent.com/proxy/LbxjioPkqmppvjJfuAyYOaV08EE1RFimc6vOgsv0IFRRmddn3VDC0rtoqsKan9eJz-c4EpNBL6631sV-dDlqsZAz-i2ZE5ogNibhlwtnFEeMgxrSIkqxyIDFyxX-Wlv6b_fBgW_ITv5-fnwro7VM');
+  background:linear-gradient(rgba(75, 74, 74, 0.9), rgba(75, 74, 74, 0.9)),
+  url('https://i.pinimg.com/originals/c8/59/4d/c8594daee1efe9e7bab3a97a95b9dfd0.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -32,7 +33,7 @@
 
 #jumbotext{
   position: relative;
-  top: 25%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -48,7 +49,3 @@ background-position: center;
 
 /* Footer */
 
-.footImages {
-  width: 25%;
-  height: auto;
-}

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import { Button } from 'reactstrap';
 
 const Jumbotronhome = () => {
     return (
@@ -9,7 +10,7 @@ const Jumbotronhome = () => {
                     <div id="jumbotext">
                     <h1 class="display-4">Hi! I'm Charissa Beaty.</h1>
                     <p>I am a front-end web developer.</p>
-                    </div>
+                    <Button outline color="primary">Learn More</Button>{' '}                    </div>
             </div>
         </div>
     )
