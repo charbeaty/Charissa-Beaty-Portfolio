@@ -4,14 +4,15 @@
   text-align: center;
   bottom: 65px;
   overflow: hidden;
-/* background-color: transparent; */
+  background-color: transparent;
 }
 
-a {
+.navbar-brand {
+  float: inline-start;
   color: white;
 }
 
-a:hover {
+.navbar-brand:hover {
   color: #2fdad1;
 }
 
@@ -35,4 +36,19 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Portfolio */
+hr {
+border: 0;
+height: 45px;
+background-image: url("https://www.formget.com/wp-content/uploads/2014/12/type_10.png");
+background-repeat: no-repeat;
+background-position: center;
+}
+
 /* Footer */
+
+.footImages {
+  width: 25%;
+  height: auto;
+}
