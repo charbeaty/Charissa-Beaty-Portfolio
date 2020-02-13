@@ -8,30 +8,35 @@ const Example = (props) => {
   return (
     <CardDeck>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="./images/Bamazon.png" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardTitle>Bamazon</CardTitle>
+          <CardSubtitle>Amazon-like store front</CardSubtitle>
           <CardText></CardText>
-          <Button>Button</Button>
+          <Button>GitHub Link</Button>
+
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="./images/burger.png" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Eat A Burger</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText></CardText>
-          <Button>Button</Button>
+          <Button>GitHub</Button>
+          <Button>Live Site</Button>
+
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="./images/clicky-game.png" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Memory Game</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText></CardText>
-          <Button>Button</Button>
+          <Button>GitHub</Button>
+          <Button>Live Site</Button>
+
         </CardBody>
       </Card>
     </CardDeck>

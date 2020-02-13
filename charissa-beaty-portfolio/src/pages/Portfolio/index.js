@@ -10,7 +10,6 @@ import BottomNav from './BottomNav';
 const Portfolio = () => {
     return (
         <div>
-            <Navbar />
         <Container id="portfolio">
             <Row>
                 <Col xs="12" className="project">
@@ -19,10 +18,9 @@ const Portfolio = () => {
                     <hr></hr>
                     <br></br>
                     <CardPersonal />
+                    <br></br>
                 </Col>
-
                 <Col xs="12">
-
                     <h1 className="text-center">Group Projects</h1>
                     <br></br>
                     <hr></hr>
@@ -31,7 +29,6 @@ const Portfolio = () => {
                 </Col>
             </Row>
         </Container>
-        <BottomNav />
         </div>
     )
 }

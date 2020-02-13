@@ -8,30 +8,36 @@ const Example = (props) => {
   return (
     <CardDeck>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="./images/urban-reader.jpg" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Urban Reader</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText></CardText>
-          <Button>Button</Button>
+          <Button>GitHub</Button>
+          <Button>Live Site</Button>
+
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="./images/movieChats.png" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Movie Chats</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText></CardText>
-          <Button>Button</Button>
+          <Button>GitHub</Button>
+          <Button>Live Site</Button>
+
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="./images/" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Quick Ups</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText></CardText>
-          <Button>Button</Button>
+          <Button>Git Hub</Button>
+          <Button>Live Site</Button>
+
         </CardBody>
       </Card>
     </CardDeck>
