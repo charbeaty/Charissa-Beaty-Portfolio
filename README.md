@@ -1,1 +1,0 @@
-# Charissa-Beaty-Portfolio
