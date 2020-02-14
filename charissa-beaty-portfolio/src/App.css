@@ -60,12 +60,50 @@ background-color: #ff9b71;
 
 }
 
+ #personal,
+ #group {
+  color: #2fdad1;
+  font-family: kewl-script;
+  font-size: 52px;
+}
+
+.title {
+  color: #2fdad1;
+  font-family: madre-script;
+  font-size: 24px;
+}
+
 /* About Me */
+.mystory {
+  color: #2fdad1;
+  font-family: kewl-script;
+  font-size: 52px;
+}
+
+.myImage {
+  margin-top: 50px;
+}
 
 
 /* Connect With Me */
 .connect {
   background-image: url("https://i.pinimg.com/originals/02/bf/bd/02bfbd040f5d2433c8b6d1f08d4295af.jpg");
+}
+
+.teamatag,
+.bioemail {
+  color: #ff9b71;
+}
+
+.teamatag:hover,
+.bioemail:hover {
+  color: #2fdad1;
+}
+
+.connectwithme {
+  color: #2fdad1;
+  font-family: kewl-script;
+  font-size: 45px;
 }
 /* Footer */
 .copyright {

@@ -8,12 +8,14 @@ const About = () => {
             <Navbar />
   <Container>
       <Row>
-          <Col xs="6">
+          <Col xs="6" className="myImage">
           <img src="./images/black_and_white.jpg" alt="me" height="400" width="395"></img>
           </Col>
           <hr></hr>
-          <Col xs="6" className="myStory">
-          <h1>My Story</h1>
+          <Col xs="6">
+          <h1 className="mystory">My Story</h1>
+          <br></br>
+          <hr></hr>
           <p>
               I am a certified full-stack web developer, and focus my skills
               on the front end. I earned my certification through the University of Utah 
