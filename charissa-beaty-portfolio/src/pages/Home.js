@@ -1,7 +1,6 @@
 import React from 'react';
-import Navbar from '../../components/Navbar';
-import Jumbotronhome from '../../components/JumbotronHome';
-import Footer from '../../components/Footer';
+import Jumbotronhome from '../components/JumbotronHome';
+import Footer from '../components/Footer';
 
 
 const Home = () => {

@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import BottomNav from './BottomNav';
-import Navbar from './Navbar';
 
 const About = () => {
     return (
