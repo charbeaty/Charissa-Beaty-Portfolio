@@ -20,6 +20,14 @@
   color: #2fdad1;
 }
 
+.nav-link {
+  color: #ff9b71;
+}
+
+.nav-link:hover {
+  color: #2fdad1;
+}
+
 /* JumbotronHome */
 #homejumbo{
   height: 100vh;

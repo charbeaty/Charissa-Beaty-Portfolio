@@ -1,9 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import Navbar from '../components/Navbar';
 
 const About = () => {
     return (
         <div>
+            <Navbar />
   <Container>
       <Row>
           <Col xs="6">

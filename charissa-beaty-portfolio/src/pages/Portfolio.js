@@ -4,10 +4,12 @@ import {
     Card, Button, CardImg, CardTitle, CardText, CardDeck,
     CardSubtitle, CardBody
   } from 'reactstrap';
+import Navbar from '../components/Navbar';
 
 const Portfolio = () => {
     return (
         <div>
+            <Navbar />
         <Container id="portfolio">
             <Row>
                 <Col xs="12" className="project">
