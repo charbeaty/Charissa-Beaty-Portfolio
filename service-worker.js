@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Charissa-Beaty-Portfolio/precache-manifest.8f0d139c4038e1a976e6ada976031a5b.js"
+  "/Charissa-Beaty-Portfolio/precache-manifest.764fde559a80ebb38790adfc733da264.js"
 );
 
 self.addEventListener('message', (event) => {
