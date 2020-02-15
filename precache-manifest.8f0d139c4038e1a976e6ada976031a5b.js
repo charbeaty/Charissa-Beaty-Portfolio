@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8678ef13f74861eb25fa71b3a699b60a",
+    "revision": "368f5b641755ee5c50182f4d242a0818",
     "url": "/Charissa-Beaty-Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Charissa-Beaty-Portfolio/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "b8e92783dad195860360",
+    "revision": "e74bb7a3eca85b910179",
     "url": "/Charissa-Beaty-Portfolio/static/css/main.1a86d316.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Charissa-Beaty-Portfolio/static/js/2.0027df7c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8e92783dad195860360",
-    "url": "/Charissa-Beaty-Portfolio/static/js/main.03135c1d.chunk.js"
+    "revision": "e74bb7a3eca85b910179",
+    "url": "/Charissa-Beaty-Portfolio/static/js/main.6e35c455.chunk.js"
   },
   {
     "revision": "f539bd28d47834e10ea7",
