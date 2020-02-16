@@ -24,12 +24,12 @@ const Connect = () => {
                                     </div>
                                     <div className="col-md-5 mb-3 leftofcard">
                                         {/* <img className="teamimage charissa float-right" src="./images/charissac.png" alt="charissa"/> */}
-                                        <a className="teamatag" href='https://www.linkedin.com/in/charissa-beaty-61b99997/' target="_blank">
+                                        <a className="teamatag" href='https://www.linkedin.com/in/charissa-beaty-61b99997/'>
                                             <p className='d-inline teamlink mr-3'>LINKEDIN</p><i className="fa fa-linkedin fa-2x"></i>
                                         </a>
                                         <br></br>
                                         <br></br>
-                                        <a className="teamatag" href='https://github.com/charbeaty' target="_blank">
+                                        <a className="teamatag" href='https://github.com/charbeaty'>
                                             <p className='d-inline teamlink mr-3'>GITHUB</p><i className="fa fa-github fa-2x"></i>
                                         </a>
                                         <br></br>

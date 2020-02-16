@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import {
-    Card, Button, CardImg, CardTitle, CardText, CardDeck,
+    Card, CardImg, CardTitle, CardText, CardDeck,
     CardSubtitle, CardBody
   } from 'reactstrap';
 import Navbar from '../components/Navbar';
@@ -25,7 +25,7 @@ const Portfolio = () => {
           <hr></hr>
           <CardSubtitle>Bamazon is an Amazon-like storefront using MySQL and Inquirer that takes in orders from customers and depletes stock from the store's inventory.</CardSubtitle>
           <CardText></CardText>
-          <a className="teamatag" href='https://github.com/charbeaty/Bamazon.git' target="_blank">
+          <a className="teamatag" href='https://github.com/charbeaty/Bamazon.git'>
             <p className='d-inline teamlink mr-3'>GitHub</p><i className="fa fa-github fa-2x"></i>
             </a>
 
@@ -41,12 +41,12 @@ const Portfolio = () => {
 
 </CardSubtitle>
           <CardText></CardText>
-          <a className="teamatag" href='https://github.com/charbeaty/Burger.git' target="_blank">
+          <a className="teamatag" href='https://github.com/charbeaty/Burger.git'>
             <p className='d-inline teamlink mr-3'>GitHub</p><i className="fa fa-github fa-2x"></i>
             </a>
             <br></br>
             <br></br>
-            <a className="teamatag" href='https://git.heroku.com/burgerapp-cb.git' target="_blank">
+            <a className="teamatag" href='https://git.heroku.com/burgerapp-cb.git'>
             <p className='d-inline teamlink mr-3'>Live Site</p>
             </a>
 
@@ -60,12 +60,12 @@ const Portfolio = () => {
           <CardSubtitle>Clicky-Game is an interactive web application built with CSS, Bootstrap, and React.js that tests the users memory. To start the memory game, the user simply clicks on an image, after which the images are shuffled. Can you remember the images you've clicked?
 </CardSubtitle>
           <CardText></CardText>
-          <a className="teamatag" href='https://github.com/charbeaty/Clicky-Game.git' target="_blank">
+          <a className="teamatag" href='https://github.com/charbeaty/Clicky-Game.git'>
             <p className='d-inline teamlink mr-3'>GitHub</p><i className="fa fa-github fa-2x"></i>
             </a>
             <br></br>
             <br></br>
-            <a className="teamatag" href='https://charbeaty.github.io/Clicky-Game/' target="_blank">
+            <a className="teamatag" href='https://charbeaty.github.io/Clicky-Game/'>
             <p className='d-inline teamlink mr-3'>Live Site</p>
             </a>
 
@@ -90,12 +90,12 @@ const Portfolio = () => {
 
 </CardSubtitle>
           <CardText></CardText>
-          <a className="teamatag" href='https://github.com/charbeaty/T2S-Urban-Dict.git' target="_blank">
+          <a className="teamatag" href='https://github.com/charbeaty/T2S-Urban-Dict.git'>
             <p className='d-inline teamlink mr-3'>GitHub</p><i className="fa fa-github fa-2x"></i>
             </a>
             <br></br>
             <br></br>
-            <a className="teamatag" href='https://thomasdylan.github.io/T2S-Urban-Dict/' target="_blank">
+            <a className="teamatag" href='https://thomasdylan.github.io/T2S-Urban-Dict/'>
             <p className='d-inline teamlink mr-3'>Live Site</p>
             </a>
 
@@ -109,12 +109,12 @@ const Portfolio = () => {
           <hr></hr>
           <CardSubtitle>Movie Chats is a place for people to come together and chat about movies that are currently in theaters.</CardSubtitle>
           <CardText></CardText>
-          <a className="teamatag" href='https://github.com/charbeaty/movie-chats.git' target="_blank">
+          <a className="teamatag" href='https://github.com/charbeaty/movie-chats.git'>
             <p className='d-inline teamlink mr-3'>GitHub</p><i className="fa fa-github fa-2x"></i>
             </a>
             <br></br>
             <br></br>
-            <a className="teamatag" href='https://radiant-hamlet-52915.herokuapp.com/' target="_blank">
+            <a className="teamatag" href='https://radiant-hamlet-52915.herokuapp.com/'>
             <p className='d-inline teamlink mr-3'>Live Site</p>
             </a>
 
@@ -130,12 +130,12 @@ const Portfolio = () => {
 
 Through Quick Ups people who do not own a truck or other large vehicle are able to request a pick up of large purchased items by someone who has registered their truck or other large vehicle to be used as a resource through the Quick Ups website.</CardSubtitle>
           <CardText></CardText>
-          <a className="teamatag" href='https://github.com/charbeaty/quickupsv2.git' target="_blank">
+          <a className="teamatag" href='https://github.com/charbeaty/quickupsv2.git'>
             <p className='d-inline teamlink mr-3'>GitHub</p><i className="fa fa-github fa-2x"></i>
             </a>
             <br></br>
             <br></br>
-            <a className="teamatag" href='https://quickups2.herokuapp.com/' target="_blank">
+            <a className="teamatag" href='https://quickups2.herokuapp.com/'>
             <p className='d-inline teamlink mr-3'>Live Site</p>
             </a>
 

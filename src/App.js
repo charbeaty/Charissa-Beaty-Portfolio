@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Connect from './pages/Connect';
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 function App() {
