@@ -9,7 +9,8 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router
+      basename={window.location.pathname || ""}>
       <div>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
